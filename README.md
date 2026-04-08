@@ -1,5 +1,7 @@
 # Cross-Modal Refusal Vector Transfer
 
+LaTeX typesetting and polishing of the original text & figure generation was done via Claude.
+
 ## Running on GCP VM
 
 ```bash
