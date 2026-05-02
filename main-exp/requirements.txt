@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers>=4.46.0
+accelerate
+Pillow
+huggingface_hub
+datasets
+jinja2>=3.1.0
+google-generativeai

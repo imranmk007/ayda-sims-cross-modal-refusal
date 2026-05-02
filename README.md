@@ -1,17 +1,18 @@
 # Cross-Modal Refusal Vector Transfer
 
-Polishing of the original report was assisted by Claude.
-
 ## Running on GCP VM
 
 ```bash
 tmux new -s experiment
+sudo apt install pip
 pip install -r requirements.txt
-python -c "from huggingface_hub import login; login()"
-python experiment-2.py
+python3 -c "from huggingface_hub import login; login()"
+<<INSERT HF TOKEN>>
+python3 <<filename.py>>
 ```
 
-If tab closes:
+Relaunch tab:
+
 ```bash
 tmux attach -t experiment
 ```
