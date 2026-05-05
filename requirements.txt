@@ -7,3 +7,4 @@ huggingface_hub
 datasets
 jinja2>=3.1.0
 google-generativeai
+bitsandbytes>=0.46.1
